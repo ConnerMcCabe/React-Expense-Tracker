@@ -1,10 +1,14 @@
 import React from 'react';
+import { Header, Balance } from '../components'
 import './App.css';
 
 function App() {
   return(
     <div className="container">
-      <h1>Test</h1>
+      <Header />
+        <div className="mainBody">
+          <Balance />
+        </div>
     </div>
   )
 }
