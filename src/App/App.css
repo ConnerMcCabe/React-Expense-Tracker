@@ -62,7 +62,7 @@ input {
   width: 100%;
 }
 
-.newTransactionbtn {
+button {
   display: block;
   cursor: pointer;
   background-color: #24ACF2;

@@ -15,7 +15,7 @@ export const AddTransaction = () => {
           <label>Amount</label>
           <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount..." />
         </div>
-        <button class="newTransactionbtn">Add</button>
+        <button>Add</button>
       </form>
     </>
   )
