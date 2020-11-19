@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Balance, IncomeExpense, TransactionList } from '../components'
+import { Header, Balance, IncomeExpense, TransactionList, AddTransaction } from '../components'
 import './App.css';
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
           <Balance />
           <IncomeExpense />
           <TransactionList />
+          <AddTransaction />
         </div>
     </div>
   )
