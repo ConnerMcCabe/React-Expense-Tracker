@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export const Header = () => {
   return (
@@ -6,4 +6,4 @@ export const Header = () => {
       Expense Tracker
     </h2>
   )
-}
+};

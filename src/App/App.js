@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Balance } from '../components'
+import { Header, Balance, IncomeExpense, TransactionList } from '../components'
 import './App.css';
 
 function App() {
@@ -8,6 +8,8 @@ function App() {
       <Header />
         <div className="mainBody">
           <Balance />
+          <IncomeExpense />
+          <TransactionList />
         </div>
     </div>
   )
