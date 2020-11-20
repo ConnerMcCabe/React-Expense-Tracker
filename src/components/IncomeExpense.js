@@ -11,7 +11,7 @@ export const IncomeExpense = () => {
     
     
   return (
-    <div className="containerIncExp">
+    <div className="incomeExpenseBox">
       <div>
         <h4>Income</h4>
         <p id="plus">+${income}</p>

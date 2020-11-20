@@ -13,6 +13,16 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+} 
+
+.trackerBox {
+  position: absolute;
+  right: 10em;
+}
+
 h1 {
   letter-spacing: 1px;
   margin: 0;
@@ -29,7 +39,7 @@ h4 {
   text-transform: uppercase;
 }
 
-.containerIncExp {
+.incomeExpenseBox {
   display: flex;
   justify-content: space-between;
   background-color: #ffffff;
