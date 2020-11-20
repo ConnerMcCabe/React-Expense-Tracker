@@ -8,7 +8,7 @@ export const Transaction = ({ transaction }) => {
   return (
     <li>
       {transaction.text}<span>{sign}{Math.abs(transaction.amount)}$</span>
-      <button>x</button>
+      <button className="delete-btn">x</button>
     </li>
   )
 };

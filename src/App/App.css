@@ -62,7 +62,7 @@ input {
   width: 100%;
 }
 
-button {
+.submit-btn {
   display: block;
   cursor: pointer;
   background-color: #24ACF2;
@@ -92,6 +92,21 @@ button {
   margin: 10px 0;
 }
 
+.delete-btn {
+  display: block;
+  cursor: pointer;
+  background-color: #bd1b09;
+  box-shadow: var(--box-shadow);
+  border-radius: 3px;
+  border: 0;
+  color: #ffffff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.delete-btn:hover {
+  opacity: 1;
+}
 :root {
   --box-shadow: 0 2px 3px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
 }
