@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "*",
+    "react-calendar": "^3.2.1",
     "react-dom": "*",
     "react-scripts": "*"
   },
